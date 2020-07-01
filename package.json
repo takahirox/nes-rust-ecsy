@@ -1,0 +1,36 @@
+{
+  "name": "nes-rust-ecsy",
+  "description": "Nes Emulator written in Rust + ECSY",
+  "author": "Takahiro <hogehoge@gachapin.jp>",
+  "version": "0.1.0",
+  "main": "build/nes-rust-ecsy.js",
+  "module": "build/nes-rust-ecsy.module.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server . -c-1 -p 8080"
+  },
+  "homepage": "https://github.com/takahirox/nes-rust-ecsy",
+  "repository": "https://github.com/takahirox/nes-rust-ecsy.git",
+  "bugs": "https://github.com/takahirox/nes-rust-ecsy/issues",
+  "license": "MIT",
+  "keywords": [
+    "ecs",
+    "ecsy",
+    "Emulator",
+    "nes",
+    "Nintendo",
+    "Rust",
+    "wasm",
+    "WebAssembly"
+  ],
+  "dependencies": {
+    "ecsy": "^0.2.6",
+    "nes_rust_wasm": "^0.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.0",
+    "http-server": "^0.12.3",
+    "@purtuga/esm-webpack-plugin": "^1.2.1"
+  }
+}
