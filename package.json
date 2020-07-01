@@ -3,8 +3,7 @@
   "description": "Nes Emulator written in Rust + ECSY",
   "author": "Takahiro <hogehoge@gachapin.jp>",
   "version": "0.1.0",
-  "main": "build/nes-rust-ecsy.js",
-  "module": "build/nes-rust-ecsy.module.js",
+  "main": "src/bootstrap.js",
   "scripts": {
     "build": "webpack",
     "start": "http-server . -c-1 -p 8080"
